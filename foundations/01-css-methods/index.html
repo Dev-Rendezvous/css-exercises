@@ -6,20 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Methods for Adding CSS</title>
+
+
+<!--Internal CSS for 'p' element.-->
+    <style>
+      p {
+        color:white;
+        background-color:green;
+        font-family:'Baskerville';
+        display:inline-block;
+      }
+    </style>
+<!--End of Internal CSS for 'p' element-->
+
+
   </head>
+
+
   <body>
+
+
     <h1>
-      <div class="External">Style me via the external method!</div>
+      <div id="External">Style me via the external method!</div>
     </h1>
 
-    
-    <p>I would like to be styled with the internal method, please.</p>
 
+    <p>I would like to be styled with the internal method, please.</p>
+    <br>
 
     <button style="color:black; background-color:goldenrod; font-family: 'Arial';">
       <span style="font-family: Baskerville;">I</span>nline Method
     </button>
-
 
 
   </body>
