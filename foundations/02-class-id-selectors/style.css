@@ -1,0 +1,17 @@
+.Odd{
+    background-color:lightcoral;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.Odd.Three{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#Unique{
+    color:blue;
+}
+
+#Distinct{
+    background-color:greenyellow;
+}
