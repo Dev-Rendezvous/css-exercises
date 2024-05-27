@@ -44,11 +44,13 @@ ul{
 
 .blocks{
   display:flex;
+  flex-grow:1;
   flex-wrap: wrap;
   gap: 5px;
 }
 
 .card {
+  
   width:250px; /*Initial Value: 500px*/
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
